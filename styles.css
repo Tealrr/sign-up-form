@@ -1,0 +1,16 @@
+.layout {
+    display: flex;
+    height: 100vh;
+}
+
+.left-side {
+    flex: 1;
+    background-image: url("leaves.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.right-side {
+    flex: 1.5;
+
+}
