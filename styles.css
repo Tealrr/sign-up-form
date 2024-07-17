@@ -1,17 +1,35 @@
+@font-face {
+    font-family: 'NorseBold';
+    src: url('Norse-Bold.otf') format('opentype');
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
 .layout {
     display: flex;
     height: 100vh;
 }
 
 .left-side {
+    display: flex;
+    flex-direction: column;
     flex: 1;
+    position: relative;
     background-image: url("leaves.jpg");
     background-position: center;
     background-size: cover;
 }
 
+.banner {
+    background-color: black;
+}
+
 .right-side {
-    flex: 1.5;
+    flex: 1.66;
     display: flex;
     flex-direction: column;
     background-color:rgb(236, 235, 235);
@@ -42,10 +60,11 @@
 
 
 .create {
+    font-family: norse-bold;
     margin: 30px;
     padding: 10px 40px;
     color: white;
-    background-color: rgb(87, 111, 45);
+    background-color: #596D48;
     border-radius: 6px;
     width: auto;
     align-self: flex-start;
@@ -59,4 +78,30 @@ input {
     margin-bottom: 10px;
     padding: 8px;
     font-size: 12px;
+}
+
+.banner {
+    width: 100%;
+    margin-top: 200px;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content:  center;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-opaque black background */
+    padding: 20px 20px;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.banner-logo {
+    width: 100px; 
+    height: 100px;
+    margin-right: 10px;
+}
+
+.banner-text {
+    color: white;
+    font-size: 64px; 
+    font-weight: bold;
+    font-family: 'NorseBold';
 }
