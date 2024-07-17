@@ -73,7 +73,6 @@ body, html {
 
 
 .create {
-    font-family: norse-bold;
     margin: 30px;
     padding: 10px 40px;
     color: white;
@@ -117,4 +116,15 @@ input {
     font-size: 64px; 
     font-weight: bold;
     font-family: 'NorseBold';
+}
+
+.photo-creds {
+    color: white;
+    margin-top: auto;
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.photo-creds a {
+    color: inherit;
 }
