@@ -40,6 +40,7 @@ body, html {
     margin-top: 50px;
     font-size: 24px;
     font-weight: 600;
+    padding-left: 20px;
 }
 
 .text2{
@@ -47,6 +48,11 @@ body, html {
     margin-bottom: 30px;
     font-size: 24px;
     font-weight: 600;
+    padding-left: 20px;
+}
+
+h3 {
+    padding-left: 20px;
 }
 
 .signup-form {
@@ -127,4 +133,12 @@ input {
 }
 .photo-creds a {
     color: inherit;
+}
+
+.existing-user {
+    padding-left: 30px;
+}
+
+.existing-user a {
+    color: #596D48;
 }
